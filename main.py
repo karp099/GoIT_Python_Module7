@@ -1,8 +1,8 @@
 import functions as func
-
+from classes import AddressBook
 
 def main():
-    book = func.load_data()
+    book = AddressBook()
     print(func.banner)
     print("Welcome to the assistant bot!")
     print(func.commands_menu)
@@ -40,3 +40,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
