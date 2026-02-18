@@ -1,9 +1,8 @@
 import functions as func
-import classes as c
 
 
 def main():
-    book = c.AddressBook()
+    book = func.load_data()
     print(func.banner)
     print("Welcome to the assistant bot!")
     print(func.commands_menu)
